@@ -1,0 +1,138 @@
+body {
+    color: #333;
+    /* background-color: #E3E0DF;   light gray */
+    font-family: "Open Sans", sans-serif;
+    background: url(../images/metal-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+h1,h2,h3 {
+    font-family: 'Archivo Narrow', sans-serif;    
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+}
+
+.navbar-brand {
+    font-weight: bold;    
+}
+
+.navbar-nav a {
+    font-weight: bold;
+}
+
+.page-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* not used */
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+hr {
+    width: 75px;
+    height: 10px;
+    border: 0;
+    background-color: #005048; /* dark green */
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.splash-container {
+     height: 75vh;
+    <!-- background: url(../images/building-site-trans.png) no-repeat bottom right fixed; -->
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.about-container {
+    margin-top: 20px;
+    padding: 10px;    
+}
+
+.testimonials-container {
+    margin-top: 20px;
+    padding: 10px; 
+}
+
+.contact-container {
+     margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.contact-container i {
+    font-size: 25px;
+}
+
+.contact-container p {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
