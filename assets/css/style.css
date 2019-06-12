@@ -1,14 +1,12 @@
 body {
-    color: #525252;
-    /* background-color: #E3E0DF;   light gray */
     font-family: "Open Sans", sans-serif;
-    background: url(../images/metal-background.jpg) no-repeat center center fixed;
+    background: url(../images/circular-metal-960x720.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    margin-left: 10px;
+
+    margin: 0px;
     
 }
 
@@ -19,6 +17,10 @@ h1,h2,h3 {
 p {
     font-family: 'EB Garamond', serif;
     font-size: x-large;
+}
+
+.icon {
+    margin: 0 5px 0;
 }
 
 .navbar-brand {
@@ -57,11 +59,6 @@ hr {
 
 .splash-container {
      height: 100vh;
-    <!-- background: url(../images/building-site-trans.png) no-repeat bottom right fixed; -->
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +137,10 @@ hr {
     letter-spacing: 2px;
 }
 
-
+.bottom-navbar {
+    margin: 0;
+    letter-spacing: 2px;
+}
 
 
 
