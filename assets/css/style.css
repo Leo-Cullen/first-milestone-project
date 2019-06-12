@@ -8,6 +8,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     
+    margin-left: 10px;
+    
 }
 
 h1,h2,h3 {
@@ -20,10 +22,10 @@ p {
 }
 
 .navbar-brand {
-    font-weight: bold;    
+    font-weight: bold;
 }
 
-.navbar-nav a {
+.top-navbar a {
     font-weight: bold;
 }
 
@@ -36,16 +38,6 @@ p {
 .page-header h2 {
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-/* not used */
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
 }
 
 hr {
@@ -86,7 +78,16 @@ hr {
 }
 
 .about-col {
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about-col p {
+    text-align: justify;
 }
 
 .testimonials-container {
@@ -123,6 +124,10 @@ hr {
     padding: 10px;
     text-align: center;
     padding-bottom: 0;
+}
+
+.img-responsive {
+    max-width: 90%;
 }
 
 .contact-container i {
