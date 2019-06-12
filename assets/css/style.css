@@ -6,8 +6,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    margin: 0px;
-    
+    /* margin: 0px; */
+    overflow-x: hidden; /* remove horizontal scrollbar */
 }
 
 h1,h2,h3 {
@@ -71,6 +71,9 @@ hr {
 }
 
 .about-container {
+    margin-top: 00px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 10px;    
 }
 
@@ -89,6 +92,8 @@ hr {
 
 .testimonials-container {
     margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding: 10px; 
 }
 
