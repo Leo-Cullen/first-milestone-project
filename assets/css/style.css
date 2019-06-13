@@ -6,7 +6,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    /* margin: 0px; */
+     margin: 0px; 
     overflow-x: hidden; /* remove horizontal scrollbar */
 }
 
@@ -16,11 +16,17 @@ h1,h2,h3 {
 
 p {
     font-family: 'EB Garamond', serif;
-    font-size: x-large;
+    font-size: large;
 }
 
 .icon {
     margin: 0 5px 0;
+}
+
+/*------------------------------------------------------------------- navbar */
+
+.navbar {
+    opacity: 0.7;
 }
 
 .navbar-brand {
@@ -30,6 +36,12 @@ p {
 .top-navbar a {
     font-weight: bold;
 }
+
+.navbar-toggler {
+    background-color: #005048;    
+}
+
+/*-------------------------------------------------------------------general styles */
 
 .page-header {
     margin-top: 0;
@@ -57,6 +69,8 @@ hr {
     margin-bottom: 20px;
 }
 
+/*------------------------------------------------------------------- splash */
+
 .splash-container {
      height: 100vh;
     display: flex;
@@ -67,8 +81,11 @@ hr {
 
 
 .jumbotron {
-    background-color: transparent;
+   background-color: transparent;
+   margin: 0;
 }
+
+/*------------------------------------------------------------------- about */
 
 .about-container {
     margin-top: 00px;
@@ -90,6 +107,8 @@ hr {
     text-align: justify;
 }
 
+/*-------------------------------------------------------------------testimonials */
+
 .testimonials-container {
     margin-top: 20px;
     margin-right: 10px;
@@ -105,6 +124,8 @@ hr {
     font-size: 30px;
     margin-right: 10px;
 }
+
+/*-------------------------------------------------------------------gallery */
 
 .gallery-container {
     text-align: center;
@@ -122,6 +143,8 @@ hr {
     margin-bottom: 30px;
 }
 
+/*-------------------------------------------------------------------contact */
+
 .contact-container {
     padding: 10px;
     text-align: center;
@@ -137,17 +160,26 @@ hr {
 }
 
 .contact-container p {
-    font-family: 'Archivo Narrow', sans-serif;
     font-size: 24px;
     letter-spacing: 2px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #005048;
 }
 
 .bottom-navbar {
     margin: 0;
     letter-spacing: 2px;
 }
-
-
 
 
 
