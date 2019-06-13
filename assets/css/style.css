@@ -168,6 +168,11 @@ hr {
     letter-spacing: 2px;
 }
 
+.contact-details {
+    background-color: #555a5f;
+    opacity: 0.8;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;

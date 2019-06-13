@@ -16,7 +16,7 @@
 
     <nav class="navbar top-navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#"> COYNE </a>
-        
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
     <div class="container-fluid  splash-container">
         <div class="row">
             <div class="col-12">
-               <section class="splash jumbotron">
+                <section class="splash jumbotron">
                     <img src="assets/images/coyne-logo.png" width="100%" height="100%" style="margin-top:100px" />
                     <!--  -->
                 </section>
@@ -165,12 +165,27 @@
     <div class="container-fluid contact-container content-container">
         <hr id="contact" />
         <section class="contact-section">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">CONTACT</h3>
-                <h5 class="uppercase text-center">Enter your details:</h5>
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase section-heading">CONTACT</h2>
+                </div>
+            </div>
+            <div class="row bg-color-contact">
 
-                <div class="center-form">
+                <div class="col-md-5">
+                    <h5 class="uppercase text-center">Contact details</h5>
+                     <div class="contact-details">
+                         <dl>
+                        <dt>M</dt>
+                        <dd>087-555-1212</dd>
+                        <dt>E</dt>
+                        <dd>lee@coynesurvey.ie</dd>
+                    </dl>    
+                     </div>
+                    
+                </div>
+                <div class="col-md-7 center-form">
+                    <h5 class="uppercase text-center">Enter your details:</h5>
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
@@ -182,18 +197,16 @@
                         </div>
                     </form>
                 </div>
-
             </div>
-        </div>
 
-    </section>
+        </section>
     </div>
     <!-- / Contact container -->
 
     <!-- Footer -->
     <nav class="navbar bottom-navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="#">COYNE</a>
-        
+
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fab fa-facebook-square icon"></i>Facebook</a>
