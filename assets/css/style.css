@@ -1,9 +1,9 @@
-body,html {
+/*body,html {
     height: 100%;
     width:100%;
     margin: 0px; 
 }
-
+*/
 body {
     font-family: "Open Sans", sans-serif;
     background: url(../images/circular-metal-960x720.jpg) no-repeat center center fixed;
@@ -25,10 +25,6 @@ p {
     font-size: large;
 }
 
-.icon {
-    margin: 0 5px 0;
-}
-
 /*------------------------------------------------------------------- navbar */
 
 .navbar {
@@ -39,13 +35,20 @@ p {
     font-weight: bold;
 }
 
-.top-navbar a {
+.top-navbar i {
+    font-size: large;
+    color: #f8f8f8;
+}
+
+.top-navbar i:hover {
     font-weight: bold;
+    color: #999c9d !important;
 }
 
 .navbar-toggler {
     background-color: #005048;    
 }
+
 
 /*-------------------------------------------------------------------general styles */
 
@@ -136,7 +139,8 @@ hr {
 }
 
 .gallery-container img {
-    border: solid 3px #000;
+    border-radius: 3%;
+    /* border: solid 3px #525252; */
 }
 
 .gallery-container h5 {
@@ -173,10 +177,37 @@ hr {
     opacity: 0.8;
 }
 
-.center-form {
+.center-form .contact-details {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 65%;
+}
+
+.contact-details {
+    border-radius: 2%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: #fff;
+    
+}
+
+.contact-details span {
+    display: block;
+    padding: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: x-large;
+}
+
+
+.contact-details a {
+    color: #fff;
+}
+
+.contact-details a:hover {
+    color: #999c9d;
+    text-decoration: none;
 }
 
 button[type="submit"] {
@@ -190,7 +221,6 @@ button[type="submit"] {
     letter-spacing: 2px;
     opacity: 0.8;
 }
-
 
 
 
