@@ -148,9 +148,14 @@ hr {
     padding-top: 6px;
 }
 
-.gallery-container p {
+.gallery-container {
     margin-bottom: 30px;
+    
+}
+
+.gallery-col {
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------------------------------------------contact */
@@ -191,6 +196,7 @@ hr {
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 50px;
+    margin-bottom: 30px;
     color: #fff;
     
 }
